@@ -1,5 +1,7 @@
+//este mensaje sincronico se muestra primero
+//antes de hacer la promesa
 console.log("Tomando datos...");
-
+//se realiza la funcion promesa
 new Promise(resolve => {
   setTimeout(() => {
     console.log("Procesando datos...");
@@ -13,4 +15,4 @@ new Promise(resolve => {
       resolve();
     }, 1000);
   });
-});
+}); 

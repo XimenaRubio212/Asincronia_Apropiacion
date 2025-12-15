@@ -1,6 +1,7 @@
 //este mensaje sincrono se muestra primero
 console.log("Tomando datos...");
 //desúes se realiza la funcion asíncrona
+//esto es una callback que toma datos después de 1 segundo
 setTimeout(() => {
   //este mensaje asíncrono se muestra después de 1 segundo
   console.log("Procesando datos...");
