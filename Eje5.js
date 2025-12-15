@@ -1,15 +1,15 @@
-console.log("1. Tomando datos...");
+console.log("Tomando datos...");
 
 new Promise(resolve => {
   setTimeout(() => {
-    console.log("2. Procesando datos...");
+    console.log("Procesando datos...");
     resolve();
   }, 1000);
 })
 .then(() => {
   return new Promise(resolve => {
     setTimeout(() => {
-      console.log("3. Mostrando resultado");
+      console.log("Mostrando resultado");
       resolve();
     }, 1000);
   });

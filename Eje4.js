@@ -1,10 +1,10 @@
-console.log("1. Tomando datos...");
+console.log("Tomando datos...");
 
 setTimeout(() => {
-  console.log("2. Procesando datos...");
+  console.log("Procesando datos...");
 
   setTimeout(() => {
-    console.log("3. Mostrando resultado");
+    console.log("Mostrando resultado");
   }, 1000);
 
 }, 1000);

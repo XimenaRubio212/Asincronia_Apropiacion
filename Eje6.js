@@ -4,9 +4,9 @@ new Promise((resolve, reject) => {
   const exito = Math.random() > 0.5; // 50% de éxito
   setTimeout(() => {
     if (exito) {
-      resolve("✅ Éxito");
+      resolve("Éxito");
     } else {
-      reject("❌ Falló");
+      reject("Falló");
     }
   }, 1000);
 })
