@@ -1,3 +1,4 @@
+//se muestra primero este 
 console.log("Intentando operación riesgosa...");
 
 new Promise((resolve, reject) => {
